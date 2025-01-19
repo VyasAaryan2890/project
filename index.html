@@ -10,17 +10,20 @@
             padding: 0;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-
+        html,body{
+            overflow: hidden;
+        }
         .container {
             /* border: 1px solid red; */
             width: 100%;
-            background-color: rgb(195, 209, 238);
             height: 100vh;
+            background-color: rgb(195, 209, 238);
             display: flex;
             align-items: center;
             text-align: center;
             justify-content: center;
             box-sizing: border-box;
+            overflow: hidden;
         }
 
         .container .main {
@@ -141,7 +144,6 @@
             .main {
                 flex-direction: column-reverse;
                 max-height: 600px;
-
             }
 
             .main .bg {
