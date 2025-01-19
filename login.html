@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In</title>
+    <style>
+        .container .bg {
+    background-color: cornflowerblue;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+@media(max-width:840px) {
+    .main {
+        flex-direction: column;
+        max-height: 600px;
+    }
+    .container .bg {
+    background-color: cornflowerblue;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 10px;
+    
+
+}
+}
+    </style>
+</head>
+<body>
+<div class="container">
+        <div class="main">
+        <div class="box bg">
+                <div class="login">
+                    <h1>Welcome To Drishti Handicraft !</h1>
+                    <p>If you don't have an account?</p>
+                    <a href="index.html"><button>Sign Up</button></a>
+                </div>
+            </div>
+            <div class="box">
+                <form>
+                    <h1>Sign In</h1>
+                    <div>
+                        <img src="img/email.png" alt="" />
+                        <input type="email" placeholder="Email" />
+                    </div>
+                    <div>
+                        <img src="img/password.png" alt="" />
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <button class="btn">Sign In</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
